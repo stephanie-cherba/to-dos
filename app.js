@@ -30,15 +30,15 @@
             var deleteButton = document.createElement("img");
             deleteButton.id = "deleteTodo";
             deleteButton.src = "icon_delete.png";
-            deleteButton.style.width = "50px";
-            deleteButton.style.height = "50px";
+            deleteButton.style.width = "30px";
+            deleteButton.style.height = "30px";
             deleteButton.addEventListener("click", deleteObject);
 
             var saveButton = document.createElement("img");
             saveButton.src = "Asset 5.png";
             saveButton.id = "saveTodo";
-            saveButton.style.width = "50px";
-            saveButton.style.height = "50px";
+            saveButton.style.width = "30px";
+            saveButton.style.height = "30px";
             saveButton.addEventListener("click", saveObject);
 
             var itemId = object._id;
