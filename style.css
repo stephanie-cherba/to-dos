@@ -54,11 +54,10 @@
 }
 
 .todosContainer{
-    background-color: #F4A698;
-    border-radius: 10px;
     grid-row: 2/3;
     grid-column: 1/2;
     margin: 2%;
+
 }
 
 #getTodos{
@@ -74,7 +73,8 @@
 }
 
 .todoDiv{
-    border: #3b4e6d 10px dotted;
+    background-color: #3b4e6d;
+    border-radius: 5px;
     line-height: 2;
     margin: 2%;
     display: grid;
@@ -83,6 +83,10 @@
     grid-auto-rows: max-content;
     padding-left: 3%;
     padding-right: 3%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .todoImg{
@@ -96,6 +100,18 @@
     height: auto;
 }
 
+#todoTitle{
+    padding-top: 2%;
+    grid-column: 2/3;
+    text-align: left;
+    background-color: #ffffff00;
+    border: none;
+    font-size: 40px;
+    color: #F4A698;
+    outline: none;
+
+}
+
 .todoDescription{
     padding-bottom: 2%;
     grid-column: 2/4;
@@ -104,7 +120,7 @@
     background-color: #ffffff00;
     border: none;
     font-size: 40px;
-    color: #2f2f2f;
+    color: #F4A698;
     outline: none;
 }
 
@@ -112,19 +128,6 @@
     grid-column: 3/4;
     grid-row: 1/2;
 }
-
-#todoTitle{
-    padding-top: 2%;
-    grid-column: 2/3;
-    text-align: left;
-    background-color: #ffffff00;
-    border: none;
-    font-size: 40px;
-    color: #2f2f2f;
-    outline: none;
-
-}
-
 
 input[type=checkbox] { 
     transform: scale(2) !important;

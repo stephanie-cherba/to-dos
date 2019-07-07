@@ -15,7 +15,6 @@
             todoDescription.rows = "2";
             todoDescription.className = "todoDescription";
             todoDescription.value = object.description;
-            // var textArea = document.createElement("textArea");
             
 
 
